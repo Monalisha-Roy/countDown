@@ -100,7 +100,7 @@ const CountdownTimer = () => {
           >
             <div className="text-center">
               <h1
-                className={`text-xl sm:text-2xl font-bold mb-6 font-orbitron ${textColor[currentColorIndex]}`}
+                className={`text-2xl sm:text-2xl font-bold mb-6 font-orbitron ${textColor[currentColorIndex]}`}
               >
                 Time Left in the Year
               </h1>
@@ -108,28 +108,28 @@ const CountdownTimer = () => {
                 className={`flex flex-col sm:flex-row gap-4 text-xl sm:text-2xl md:text-3xl ${textColor[currentColorIndex]}`}
               >
                 <div className="w-full sm:w-52 text-center">
-                  <p className="text-5xl sm:text-9xl font-bold font-orbitron">
+                  <p className="text-7xl sm:text-9xl font-bold font-orbitron">
                     {timeLeft.days.toString().padStart(2, '0')}{' '}
                     <span className="block text-lg sm:text-2xl">days</span>
                   </p>
                 </div>
                 <p className="text-5xl sm:text-9xl font-bold font-orbitron hidden sm:block">:</p>
                 <div className="w-full sm:w-52 text-center">
-                  <p className="text-5xl sm:text-9xl font-bold font-orbitron">
+                  <p className="text-7xl sm:text-9xl font-bold font-orbitron">
                     {timeLeft.hours.toString().padStart(2, '0')}{' '}
                     <span className="text-lg sm:text-2xl block">hours</span>
                   </p>
                 </div>
                 <p className="text-5xl sm:text-9xl font-bold font-orbitron hidden sm:block">:</p>
                 <div className="w-full sm:w-52 text-center">
-                  <p className="text-5xl sm:text-9xl font-bold font-orbitron">
+                  <p className="text-7xl sm:text-9xl font-bold font-orbitron">
                     {timeLeft.minutes.toString().padStart(2, '0')}{' '}
                     <span className="text-lg sm:text-2xl block">minutes</span>
                   </p>
                 </div>
                 <p className="text-5xl sm:text-9xl font-bold font-orbitron hidden sm:block">:</p>
                 <div className="w-full sm:w-52 text-center">
-                  <p className="text-5xl sm:text-9xl font-bold font-orbitron">
+                  <p className="text-7xl sm:text-9xl font-bold font-orbitron">
                     {timeLeft.seconds.toString().padStart(2, '0')}{' '}
                     <span className="text-lg sm:text-2xl block">seconds</span>
                   </p>
