@@ -95,7 +95,7 @@ const CountdownTimer = () => {
       <main className="min-h-screen flex justify-center items-center bg-black text-white">
         <div className="flex flex-col justify-center h-screen w-full">
           <div
-            className="flex flex-col sm:flex-row items-center justify-center w-full sm:w-10/12"
+            className="flex flex-col sm:flex-row items-center justify-center w-full"
             style={{ fontFamily: 'Orbitron, sans-serif' }}
           >
             <div className="text-center">
@@ -105,7 +105,7 @@ const CountdownTimer = () => {
                 Time Left in the Year
               </h1>
               <div
-                className={`flex flex-col sm:flex-row gap-4 text-xl sm:text-2xl ${textColor[currentColorIndex]}`}
+                className={`flex flex-col sm:flex-row gap-4 text-xl sm:text-2xl md:text-3xl ${textColor[currentColorIndex]}`}
               >
                 <div className="w-full sm:w-52 text-center">
                   <p className="text-5xl sm:text-9xl font-bold font-orbitron">
